@@ -1,0 +1,91 @@
+/* CSS Document*/
+body{
+	background-color: #24305E;
+	margin: 0;
+}
+
+li{
+	display: inline-block;
+	font-family: "Trebuchet MS";
+	font-size: 25px;
+	padding: 30px;
+}
+
+h2{
+	color: #F76C6C;
+	text-align: center;
+}
+
+p{
+	font-size: 20px;
+	color: #F76C6C;
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.navigation{
+	display: inline-block;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	min-width: 500px;
+	background-color: #F76C6C;
+	left: 0;
+	top: 0;
+	margin: 0;
+	color: White;
+	border-bottom: 5px solid #374785;
+	z-index: 10;
+}
+
+.name{
+	font-size: 80px;
+	position: absolute;
+	display: inline-block;
+	color: White;
+	left: 50%;
+	top: 225px;
+	z-index: 8;
+	min-width: 500px;
+}
+
+.banner{
+	margin: 0;
+	position: relative;
+	left: 0;
+	top: 74px;
+	width: 100%;
+	z-index: 6;
+}
+
+.face{
+	border: 5px solid White;
+	border-radius: 125px;
+	position: relative;
+	width: 240px;
+	left: 30%;
+	z-index: 9;
+	display: inline-block;
+	top: -275px;
+}
+
+*{
+	font-family: sans-serif;
+}
+
+.main{
+	background-color: #A8D0E6;
+	width: 60%;
+	min-width: 500px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:100px;
+	border: 5px solid #374785;
+	border-radius: 5px;
+	top: 590px;
+	left: 20%;
+}
+
+
