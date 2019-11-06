@@ -194,3 +194,6 @@ p{
 	width = 100%;
 	text-align: center;
 }
+a:link {
+  color: #6199dd;
+}
